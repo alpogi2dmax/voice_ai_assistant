@@ -50,13 +50,13 @@ A simple command-line voice AI assistant in Python with wake word detection usin
       keywords=["computer"]
    )
 
-   ## Usage
+## Usage
 
-   Run the assistant:
+Run the assistant:
 
-   ```bash
+```bash
 
-   python main.py
+python main.py
 
    * The app willl isten for the wake word "computer".
    * After the wake word, speak your comman or question.
