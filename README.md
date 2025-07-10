@@ -23,3 +23,10 @@ A simple command-line voice AI assistant in Python with wake word detection usin
    ```bash
    git clone https://github.com/yourusername/mini-voice-ai.git
    cd mini-voice-ai
+
+2. Create and activate a virtual environment
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # macOS/lINUX
+   venv\Scripts\activate      # Windows
