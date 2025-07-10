@@ -30,3 +30,35 @@ A simple command-line voice AI assistant in Python with wake word detection usin
    python -m venv venv
    source venv/bin/activate   # macOS/lINUX
    venv\Scripts\activate      # Windows
+
+3. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Get a free Porcupine Access Key:
+
+   - Sign up at https://console.picovoice.ai/
+   - Create a Porcupine project and copy your Access Key
+
+5. Add your Access Key to main.py (replace "YOUR_ACCESS_KEY_HERE")
+
+   ```python
+
+   porcupine = pvporcupine.create(
+      access_key = "YOUR_ACCESS_KEY_HERE",
+      keywords=["computer"]
+   )
+
+   ## Usage
+
+   Run the assistant:
+
+   ```bash
+
+   python main.py
+
+   * The app willl isten for the wake word "computer".
+   * After the wake word, speak your comman or question.
+   * To quit, say "exit", "quit", or press Ctrl+c.
+   
