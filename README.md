@@ -57,6 +57,7 @@ Run the assistant:
 ```bash
 
 python main.py
+```
 
 - The app will listen for the wake word "computer".
 - After the wake word, speak your comman or question.
