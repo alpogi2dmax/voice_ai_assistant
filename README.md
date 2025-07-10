@@ -62,4 +62,23 @@ python main.py
 - The app will listen for the wake word "computer".
 - After the wake word, speak your comman or question.
 - To quit, say "exit", "quit", or press Ctrl+C.
-   
+
+## Project Structure
+
+- main.py : Entry point with wake word detection and main loop
+- utils/audio.py : Audio recording utilities
+- utils/stt.py : Speech-to-text functionality
+- utils/llm.py : GPT Integration for AI responses
+- utils/tts.py : Text-to-speech utilities
+
+## Troubleshooting
+
+- If pyaudio installation fails, try:
+
+``` bash
+
+pip install pipwin
+pip install pyaudio
+```
+
+- Ensure your microphone is working and accessible.
