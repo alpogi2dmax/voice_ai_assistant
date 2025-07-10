@@ -58,7 +58,7 @@ Run the assistant:
 
 python main.py
 
-   * The app willl isten for the wake word "computer".
-   * After the wake word, speak your comman or question.
-   * To quit, say "exit", "quit", or press Ctrl+c.
+- The app will listen for the wake word "computer".
+- After the wake word, speak your comman or question.
+- To quit, say "exit", "quit", or press Ctrl+C.
    
